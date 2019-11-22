@@ -2,7 +2,7 @@
 var mongoose = require('mongoose');
 require('../models/hotels');
 const hotels = mongoose.model('hotels');
-mongoose.connect('mongodb://localhost/nyg-dev', { useNewUrlParser: true});
+mongoose.connect('mongodb://heroku_41hc6gct:ie3qpsq7i597041bccpn05un17@ds141454.mlab.com:41454/heroku_41hc6gct', { useNewUrlParser: true});
 
 var hotels_list = [
     new hotels({
