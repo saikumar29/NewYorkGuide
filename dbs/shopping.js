@@ -2,7 +2,7 @@ var Shopping = require('../models/Shopping.js');
 
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/nyg-dev', { useNewUrlParser: true});
+mongoose.connect('mongodb://heroku_41hc6gct:ie3qpsq7i597041bccpn05un17@ds141454.mlab.com:41454/heroku_41hc6gct', { useNewUrlParser: true});
 
 var shopping = [
     new Shopping({
