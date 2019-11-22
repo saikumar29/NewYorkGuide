@@ -31,7 +31,7 @@ require('./config/passport')(passport);
 //Map global promise - get rid of warning
 mongoose.Promise = global.Promise;
 //Connect to Mongoose 
-mongoose.connect('mongodb://localhost/nyg-dev', {useNewUrlParser: true })
+mongoose.connect('mongodb://heroku_41hc6gct:ie3qpsq7i597041bccpn05un17@ds141454.mlab.com:41454/heroku_41hc6gct', {useNewUrlParser: true })
 .then(()=> console.log('NYG MongoDB Connected'))
 .catch(err => console.log(err));
 
